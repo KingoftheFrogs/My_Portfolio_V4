@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rowan Portfoilio</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+       
+    </head>
+    <body>
+      
+        <div class="hero-image">
+          <video autoplay muted loop id="background-video">
+            <source src="Comp 1 2(1).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            <div class="hero-text">
+              
+              <img class = "name_art" src = "Name_Art.png">
+              
+                <div class = "hero-button-container">
+                  <a href = "#intro">
+              <button class = "hero-button">Find Out More</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div id="navbar">
+            <a href = "#intro">Home</a>
+            <a href = "more_info.html">Skills</a>
+            <a href = "more_info.html#projects">Projects</a>
+            <a href = "#contact">Contact</a>
+          </div>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="slide fade">
+              <div class="numbertext"></div>
+              <video class="slide-video" style="width:100%">
+                <source src="Banner_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+              <div class="text"></div>
+            </div>
+          
+            <div class="slide fade">
+              <div class="numbertext"></div>
+              <a href = "more_info.html#projects">
+              <img src="CYOA_Game.jpg" style="width:100%">
+              </a>
+              <div class="text"></div>
+            </div>
+          
+            <div class="slide fade">
+              <div class="numbertext"></div>
+              <a href = "more_info.html#projects">
+              <img src="Rock Paper Scissors.jpg" style="width:100%">
+              </a>
+              <div class="text"></div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          
+        <div class = "Intro" id = "intro">
+          <div class = "Intro-Speech">
+            <h2 class = "about-me">About Me</h2>
+            <p>My name is Rowan Gilstrap and I am a high school graduate and current Nextech intern. Graduated this past spring and plan on entering the Purdue College of Engineering this fall. In high school, I was the president of my schools FIRST Robotics Team as well as the president of the Dungeons and Dragons club. I was also an active member of the Japanese club.</p>
+            <p>I have interests in almost every area of STEM as well as art and graphic design. I have been working with Adobe Premeire, Photoshop, Illustrator, and After Effects since high school as well as Inventor and Fusion 360. Although I don't plan on making the use of these programs my main occupation, I plan on continuing to improve my skills in these programs in order to improve my resume.</p>
+          </div>    
+          
+            <img class = "photo"src = "Close-Up.jpg">
+          
+        </div>
+        
+       
+            
+<!--Programs: Photoshop, Illustrator, After Effects Premeire, Inventor, Fusion360-->
+        <div class = "Contact_Image">
+          <img class = "Contact_Me" src = "Space_Contact.png">
+        </div>
+        
+        <div class = "contact-container" id = "contact">
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+            
+        <script src="index.js"></script>
+    </body>
+    
+    <!--Languages: HTML, Java, JavaScript, CSS, Python-->
+</html>
